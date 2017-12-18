@@ -1,0 +1,19 @@
+{
+  "name": "dafiti-test-backend",
+  "version": "1.0.0",
+  "description": "Fake api to dafiti's frontend test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dafiti",
+    "express",
+    "api"
+  ],
+  "author": "Guilherme Pendezza de Sousa",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.16.2"
+  }
+}
