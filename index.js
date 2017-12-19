@@ -12,6 +12,7 @@ app.use(function(req, res, next) {
 app.use(bodyParser.json());
 
 require('./routes/user')(app)
+require('./routes/address-list')(app)
 
 app.listen(3000, () => console.log('App running in port 3000'))
 
