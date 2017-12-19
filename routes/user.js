@@ -1,6 +1,9 @@
 let user = {
+    userId: 1,
     name: 'Guilherme',
-    age: 30
+    age: 30,
+    phone: '17992635858',
+    email: 'guilherme_pendezza@hotmail.com'
 }
 
 module.exports = app => {
@@ -8,10 +11,11 @@ module.exports = app => {
         .get((req, res) => {
             res.status(200).send(user)
         })
-        .post((req, res) => {
+        .put((req, res) => {
             user = req.body
             res.send({
-                message: 'User saved =)'
+                message: 'User saved =)',
+                user
             })
         })
 }
