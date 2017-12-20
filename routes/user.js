@@ -1,10 +1,4 @@
-let user = {
-    userId: 1,
-    name: 'Guilherme',
-    age: 30,
-    phone: '17992635858',
-    email: 'guilherme_pendezza@hotmail.com'
-}
+const user = require('../data/user')
 
 module.exports = app => {
     app.route('/user')
