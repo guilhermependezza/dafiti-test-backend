@@ -11,7 +11,6 @@ let addressList = [{
 module.exports = app => {
     app.route('/address-list/:userId')
         .get((req, res) => {
-            console.log(req.params)
             res.send(addressList.filter(a => a.userId == req.params.userId))
         })
 }
