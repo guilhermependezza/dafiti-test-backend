@@ -1,4 +1,4 @@
-const user = require('../data/user')
+let user = require('../data/user')
 
 module.exports = app => {
     app.route('/user')
