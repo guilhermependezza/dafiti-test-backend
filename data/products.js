@@ -15,11 +15,13 @@ module.exports = [{
     name: 'Secador de Cabelos Britânia Easy Travel Preto 1000W Bivolt',
     description: 'O Secador de Cabelo da Britânia Easy Travel, é compacto e tem potência de 1000W. Ele conta com 2 velocidades e 2 opções de temperatura permitindo combiná-las. Vem com cabo dobrável de 1,45 metros e bico concentrador.',
     image: 'https://static.wmobjects.com.br/imgres/arquivos/ids/11802031-344-344/secador-de-cabelos-britania-easy-travel-preto-1000w-bivolt.jpg',
-    ordered: true
+    ordered: true,
+    purchaseDate: '12/02/2016'
 }, {
     userId: 1,
     name: 'Climatizador de Ar Cadence Frio CLI302 Branco',
     description: 'O Climatizador de Ar Frio CLI302 Branco, da marca Cadence, oferece 3 velocidades de ventilação, utiliza a umidade do próprio ar para abaixar a temperatura dos cômodos e circula o ar no ambiente. Com painel superior, a temperatura pode ser controlada entre as funções esfriar e oscilar.',
     image: 'https://static.wmobjects.com.br/imgres/arquivos/ids/12986093-344-344/climatizador-de-ar-cadence-frio-cli302-branco.jpg',
-    ordered: true
+    ordered: true,
+    purchaseDate: '12/02/2016'
 }]
